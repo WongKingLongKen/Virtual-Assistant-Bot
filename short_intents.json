@@ -1,0 +1,68 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hey", "hello", "hi", "what's up", "good morning", "good evening"],
+            "responses": ["Hello!", "Hey, I'm your assistant!", "Hi there! How can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "How are my finances?", 
+                "Show me my stocks", 
+                "Check stock prices",
+                "How are my investments doing?",
+                "Stock market update"
+            ],
+            "responses": ["Here are your stock updates:"],
+            "context_set": ""
+        },
+        {
+            "tag": "todoshow",
+            "patterns": [
+                "Show me my todo list",
+                "What are my tasks?",
+                "Show tasks",
+                "Display todo",
+                "What do I need to do?"
+            ],
+            "responses": ["Here's your todo list:"],
+            "context_set": ""
+        },
+        {
+            "tag": "todoadd",
+            "patterns": [
+                "Add a task",
+                "New todo",
+                "Add to my list",
+                "Create new task"
+            ],
+            "responses": ["Adding a new task to your list."],
+            "context_set": ""
+        },
+        {
+            "tag": "todoremove",
+            "patterns": [
+                "Remove a task",
+                "Delete todo",
+                "Complete task",
+                "Remove from list"
+            ],
+            "responses": ["Which task would you like to remove?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "exit",
+                "quit",
+                "close"
+            ],
+            "responses": ["Goodbye! Have a great day!"],
+            "context_set": ""
+        }
+    ]
+}
